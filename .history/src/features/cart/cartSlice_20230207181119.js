@@ -10,11 +10,8 @@ const initialState = {
     name: 'cart',
     initialState,
     reducers: {
-      clearCart: (state) => {
-        state.cartItems=[]
-      }
+      clearCart:(state)
     }
 })
-//console.log(cartSlice)
-export const {clearCart}=cartSlice.actions
+console.log(cartSlice)
 export default cartSlice.reducer
