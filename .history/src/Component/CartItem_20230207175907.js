@@ -1,5 +1,5 @@
 import React from 'react'
-import {AiOutlineArrowUp,AiOutlineArrowDown} from 'react-icons/ai'
+
 const CartItem = ({id,img,title,price,amount}) => {
   return (
       <article className='cart-item'>
@@ -13,10 +13,6 @@ const CartItem = ({id,img,title,price,amount}) => {
           <div>
               <button className='amount-btn'>
                   <AiOutlineArrowUp/>
-              </button>
-              <p className='amount'>{amount}</p>
-               <button className='amount-btn'>
-                  <AiOutlineArrowDown/>
               </button>
           </div>
       </article>

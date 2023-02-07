@@ -1,5 +1,5 @@
 import React from 'react'
-import {AiOutlineArrowUp,AiOutlineArrowDown} from 'react-icons/ai'
+import {AiOutlineArrowUp} from 'react-icons/ai'
 const CartItem = ({id,img,title,price,amount}) => {
   return (
       <article className='cart-item'>
