@@ -1,12 +1,12 @@
 
-##Package you installed
+### Package you installed
 ```sh
 npm install @reduxjs/toolkit react-redux axios
 ```
 ### @reduxjs/toolkit
 -redux(stateManagement)
 --redux-thunk(handle asyn actions)
-####REDUX EXTEA
+### REDUX EXTEA
 
 -DevTooll
 -combine reducer
