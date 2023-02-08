@@ -8,5 +8,6 @@ npm install @reduxjs/toolkit react-redux axios
 --redux-thunk(handle asyn actions)
 ### REDUX EXTEA
 
--DevTooll
--combine reducer
+_DevTooll
+
+_combine reducer
