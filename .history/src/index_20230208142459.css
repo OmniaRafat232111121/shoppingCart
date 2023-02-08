@@ -159,7 +159,7 @@ nav{
   justify-content: center;
 }
 .modal{
-   background-color:rgb(244, 243, 243);
+   background-color:gray;
   width: 90%;
   max-width: 400px;
   border-radius: 15px;
@@ -172,6 +172,6 @@ nav{
 }
 .btn-cancel,.btn-confirm{
   border-radius: 10px;
-  padding: 15px;
+  padd
 
 }

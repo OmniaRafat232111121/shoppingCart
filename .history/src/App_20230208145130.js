@@ -9,7 +9,7 @@ import Modal from './Component/Modal';
 
 function App() {
   const cartItems = useSelector((state) => state.cart);
-  const { isOpen } =useSelector((state)=>state.modal)
+  const isOpen=useSelector((state)=>state.modal)
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(calculateTotal());
@@ -17,10 +17,8 @@ function App() {
 
   return (
     <div className="App">
-      {isOpen &&
-         <Modal/>
-      }
-     
+      {isOpen}
+      <Modal/>
       <Navbar />
       <CartContainer/>
     </div>
