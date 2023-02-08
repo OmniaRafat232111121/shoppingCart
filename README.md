@@ -8,6 +8,9 @@ npm install @reduxjs/toolkit react-redux axios
 --redux-thunk(handle asyn actions)
 ### REDUX EXTEA
 
-_DevTooll
+-DevTooll
 
-_combine reducer
+-combine reducer
+
+##### connect react with redux
+_create store.js
