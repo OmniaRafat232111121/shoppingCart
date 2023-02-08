@@ -11,22 +11,19 @@ function App() {
   const {cartItems,isLoading} = useSelector((state) => state.cart);
   const { isOpen } =useSelector((state)=>state.modal)
   const dispatch = useDispatch();
-   useEffect(() => {
-    dispatch(calculateTotal());
-  }, [cartItems]);
-
   useEffect(() => {
-    dispatch(getCartItems());
-  }, []);
-
+    dispatch(calculateTotal());
+  }, [cartItems])
+   useEffect(() => {
+    dispatch(getCartItems);
+  }, [])
   if (isLoading) {
     return (
       <div className='loading'>
         <h1>Loading...</h1>
       </div>
-    );
-  }
-
+  )
+}
   return (
     <div className="App">
       {isOpen &&

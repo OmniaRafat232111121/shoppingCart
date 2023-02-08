@@ -12,11 +12,11 @@ function App() {
   const { isOpen } =useSelector((state)=>state.modal)
   const dispatch = useDispatch();
    useEffect(() => {
-    dispatch(calculateTotal());
+    dispatch(calculateTotals());
   }, [cartItems]);
 
   useEffect(() => {
-    dispatch(getCartItems());
+    dispatch(getCartItems('random'));
   }, []);
 
   if (isLoading) {

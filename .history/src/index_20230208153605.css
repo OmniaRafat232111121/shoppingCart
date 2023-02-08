@@ -176,6 +176,8 @@ nav{
 
 }
 .loading{
-   text-align: center;
-  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width
 }

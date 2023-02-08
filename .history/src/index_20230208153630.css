@@ -176,6 +176,8 @@ nav{
 
 }
 .loading{
-   text-align: center;
-  margin-top: 5rem;
+  display: flex;
+  width:90%;
+  max-width: 700px;
+  margin:0 auto;
 }

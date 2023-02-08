@@ -46,19 +46,7 @@ export const getCartItems = createAsyncThunk('cart/getCartItems', () => {
       state.total=total;
     }
     },
-    extraReducers: {
-      [getCartItems.pending]: (state) => {
-        state.isLoading = true;
-      },
-      [getCartItems.fulfilled]: (state,action) => {
-        state.isLoading = false;
-        state.cartItems = action.payload;
-        console.log(action)
-      },
-      [getCartItems.rejected]: (state) => {
-        state.isLoading = true;
-      }
-    }
+    ex
 })
 //console.log(cartSlice)
 export const {clearCart,removeItem,increase,decrease,calculateTotal}=cartSlice.actions

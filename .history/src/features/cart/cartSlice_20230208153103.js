@@ -50,12 +50,10 @@ export const getCartItems = createAsyncThunk('cart/getCartItems', () => {
       [getCartItems.pending]: (state) => {
         state.isLoading = true;
       },
-      [getCartItems.fulfilled]: (state,action) => {
+      [getCartItems.fulfilled]: (state) => {
         state.isLoading = false;
-        state.cartItems = action.payload;
-        console.log(action)
       },
-      [getCartItems.rejected]: (state) => {
+      [getCartItems.pending]: (state) => {
         state.isLoading = true;
       }
     }
