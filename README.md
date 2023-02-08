@@ -1,7 +1,7 @@
 
 ### Package you installed
 ```sh
-npm install @reduxjs/toolkit react-redux axios
+npm install @reduxjs/toolkit react-redux axios react-icons
 ```
 ### @reduxjs/toolkit
 -redux(stateManagement)
@@ -12,10 +12,13 @@ npm install @reduxjs/toolkit react-redux axios
 
 -combine reducer
 
-##### connect react with redux
+#### connect react with redux
 -create store.js
 -connect with index.js
 ##### store
 -Add reducers with 
 * cartSlice
 * ModalSlice
+#### How to add this??
+* addfunctionality with reducers and dispatch.
+* addfunctionality with Extra reducers with fulfield,pending,rejected and dispatch
