@@ -13,4 +13,9 @@ npm install @reduxjs/toolkit react-redux axios
 -combine reducer
 
 ##### connect react with redux
-_create store.js
+-create store.js
+-connect with index.js
+##### store
+-Add reducers with 
+* cartSlice
+* ModalSlice
